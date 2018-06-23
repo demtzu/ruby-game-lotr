@@ -32,10 +32,10 @@ class Personne
     # - Affiche ce qu'il s'est passé
     # - Détermine si la personne est toujours en_vie ou non
     @points_de_vie -= degats_recus
-    puts "#{@nom} a recu #{degats_recus} points de dégats !"
+    puts "#{@nom} a recu #{degats_recus} points de dégats"
     if @points_de_vie <= 0
       @en_vie = false
-      puts "#{@nom} a été vaincu !"
+      puts "#{@nom} a été vaincu"
     else
       @en_vie = true
     end
