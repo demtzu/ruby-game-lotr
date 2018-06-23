@@ -146,7 +146,7 @@ monde.ennemis = [
 ]
 
 # Initialisation du joueur
-joueur = Joueur.new("Jean-Michel Paladin")
+joueur = Joueur.new("Gandalf")
 
 # Message d'introduction. \n signifie "retour à la ligne"
 puts "\n\nAinsi débutent les aventures de #{joueur.nom}\n\n"
